@@ -8,8 +8,8 @@ echo 'command' | socat - tcp:192.168.99.7:8080
 Supported commands:
 - Standard commands: gedist, getmotors, start, stop 
 - Extra commands: inceasespeed, decreasespeed (increase/decrease speed by 10 % - will return the new speed) 
-- Extra commands: increasekp, decreasekp (increase/decrease the proportional gain by 0.1 - will return the new speed) 
-- Extra commands: increasekd, decreasekd (increase/decrease the differential gain by 0.1 - will return the new speed)
+- Extra commands: increasekp, decreasekp (increase/decrease the proportional gain by 0.1 - will return the new value) 
+- Extra commands: increasekd, decreasekd (increase/decrease the differential gain by 0.1 - will return the new value)
 
 
 How the wall follower works
