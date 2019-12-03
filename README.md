@@ -24,3 +24,5 @@ System
 - Ptyhon version:2.7 
 - Lib: gpiozero - For controlling the GPIO's - https://gpiozero.readthedocs.io/en/stable/
 - CamJam EduKit 3 - https://camjam.me/?page_id=1035
+
+![alt text](robot.jpg)
