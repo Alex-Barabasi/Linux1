@@ -54,8 +54,8 @@ class RobotControl(Thread):
             direction = self.PD_control()
             print("PD value", direction)
             if direction >= 0:
-                if direction > 1:
-                    direction = 0.9
+                if direction > 0.8:
+                    direction = 0.7
                 elif direction < 0.05:
                     direction = 0.05
                 robot.forward(SPEED, curve_right=direction)
